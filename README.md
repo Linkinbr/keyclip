@@ -11,9 +11,9 @@ Clique no ícone (ou use `Ctrl+Shift+Y`) e aparece só um pequeno aviso "Senha c
 ## Estrutura
 
 ```
-extension/   código da extensão (é esta pasta que vai para a loja)
-store/       imagens e textos para a Chrome Web Store
-build.sh     gera o .zip de publicação em dist/
+extension/   código da extensão
+build.sh     gera o .zip da extensão em dist/
+PRIVACY.md   política de privacidade
 ```
 
 ## Instalar para testar
@@ -44,9 +44,9 @@ Inglês (padrão) e português do Brasil, em `extension/_locales/`. O Chrome esc
 
 Os links de doação (Buy Me a Coffee) e do repositório ficam em `extension/config.js` e aparecem como botões no rodapé da página de opções, junto com o botão da Chrome Web Store.
 
-## Publicar
+## Privacidade
 
-Siga `store/PUBLICACAO.md`.
+O Keyclip não coleta nem envia nenhum dado. Veja a [política de privacidade](PRIVACY.md).
 
 ## Detalhes técnicos
 
