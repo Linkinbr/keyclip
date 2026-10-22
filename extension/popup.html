@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <svg class="icon icon-success" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M7.5 12.5l3 3 6-6.5"/>
+    </svg>
+    <svg class="icon icon-error" viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="10"/>
+      <path d="M12 7.5v5.5M12 16.5v.01"/>
+    </svg>
+    <div class="text">
+      <span id="message"></span>
+      <button id="open-options" class="link" type="button" hidden></button>
+    </div>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

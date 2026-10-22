@@ -1,0 +1,63 @@
+{
+  "appName": { "message": "Keyclip - Password Generator" },
+  "shortName": { "message": "Keyclip" },
+  "appDescription": { "message": "Generate a strong random password and copy it to your clipboard with a single click." },
+  "actionTitle": { "message": "Copy a new password" },
+  "copied": { "message": "Password copied!" },
+  "copyFailed": { "message": "Couldn't copy the password." },
+  "noCharset": { "message": "No character type is enabled." },
+  "openOptions": { "message": "Open options" },
+  "optionsTitle": { "message": "Keyclip — Options" },
+  "autosave": { "message": "Changes are saved automatically." },
+  "saved": { "message": "Saved" },
+  "length": { "message": "Length" },
+  "lengthLabel": { "message": "Password length" },
+  "characters": { "message": "Characters" },
+  "uppercase": { "message": "Uppercase letters" },
+  "lowercase": { "message": "Lowercase letters" },
+  "numbers": { "message": "Numbers" },
+  "symbols": { "message": "Symbols" },
+  "allowedSymbols": { "message": "Allowed symbols" },
+  "reset": { "message": "Reset" },
+  "avoidAmbiguous": { "message": "Avoid look-alike characters" },
+  "errorNoType": { "message": "Select at least one character type." },
+  "errorNoSymbol": { "message": "Enter at least one allowed symbol." },
+  "errorKeepOneType": { "message": "At least one character type must stay enabled." },
+  "example": { "message": "Example" },
+  "regenerate": { "message": "Generate another example" },
+  "strengthWeak": { "message": "Weak" },
+  "strengthFair": { "message": "Fair" },
+  "strengthStrong": { "message": "Strong" },
+  "strengthVeryStrong": { "message": "Very strong" },
+  "strengthBits": {
+    "message": "$LEVEL$ · ~$BITS$ bits",
+    "placeholders": {
+      "level": {
+        "content": "$1"
+      },
+      "bits": {
+        "content": "$2"
+      }
+    }
+  },
+  "shortcut": { "message": "Keyboard shortcut" },
+  "shortcutNone": { "message": "None" },
+  "shortcutChange": { "message": "Change" },
+  "welcomeTitle": { "message": "You're all set!" },
+  "welcomePin": { "message": "Pin the extension: click the puzzle icon in Chrome's toolbar, then the pin next to Keyclip." },
+  "welcomeClick": { "message": "Click the key icon (or use the keyboard shortcut) and a new password is copied instantly." },
+  "welcomeOptions": { "message": "Adjust your password below. To come back here, right-click the icon and choose Options." },
+  "supportTitle": { "message": "Enjoying it?" },
+  "supportText": { "message": "This extension is free and has no ads. If it helps you, consider supporting its development." },
+  "donate": { "message": "Buy me a coffee" },
+  "sourceCodeLabel": { "message": "Source code on GitHub" },
+  "rateLabel": { "message": "Rate on the Chrome Web Store" },
+  "version": {
+    "message": "Version $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  }
+}

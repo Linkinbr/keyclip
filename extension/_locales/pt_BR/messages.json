@@ -1,0 +1,63 @@
+{
+  "appName": { "message": "Keyclip - Gerador de Senhas" },
+  "shortName": { "message": "Keyclip" },
+  "appDescription": { "message": "Gere uma senha forte e aleatória e copie para a área de transferência com um único clique." },
+  "actionTitle": { "message": "Copiar nova senha" },
+  "copied": { "message": "Senha copiada!" },
+  "copyFailed": { "message": "Não foi possível copiar a senha." },
+  "noCharset": { "message": "Nenhum tipo de caractere está ativo." },
+  "openOptions": { "message": "Abrir opções" },
+  "optionsTitle": { "message": "Keyclip — Opções" },
+  "autosave": { "message": "As alterações são salvas automaticamente." },
+  "saved": { "message": "Salvo" },
+  "length": { "message": "Tamanho" },
+  "lengthLabel": { "message": "Tamanho da senha" },
+  "characters": { "message": "Caracteres" },
+  "uppercase": { "message": "Letras maiúsculas" },
+  "lowercase": { "message": "Letras minúsculas" },
+  "numbers": { "message": "Números" },
+  "symbols": { "message": "Símbolos" },
+  "allowedSymbols": { "message": "Símbolos permitidos" },
+  "reset": { "message": "Restaurar" },
+  "avoidAmbiguous": { "message": "Evitar caracteres parecidos" },
+  "errorNoType": { "message": "Selecione pelo menos um tipo de caractere." },
+  "errorNoSymbol": { "message": "Informe pelo menos um símbolo permitido." },
+  "errorKeepOneType": { "message": "Pelo menos um tipo de caractere precisa ficar ativo." },
+  "example": { "message": "Exemplo" },
+  "regenerate": { "message": "Gerar outro exemplo" },
+  "strengthWeak": { "message": "Fraca" },
+  "strengthFair": { "message": "Razoável" },
+  "strengthStrong": { "message": "Forte" },
+  "strengthVeryStrong": { "message": "Muito forte" },
+  "strengthBits": {
+    "message": "$LEVEL$ · ~$BITS$ bits",
+    "placeholders": {
+      "level": {
+        "content": "$1"
+      },
+      "bits": {
+        "content": "$2"
+      }
+    }
+  },
+  "shortcut": { "message": "Atalho de teclado" },
+  "shortcutNone": { "message": "Nenhum" },
+  "shortcutChange": { "message": "Alterar" },
+  "welcomeTitle": { "message": "Tudo pronto!" },
+  "welcomePin": { "message": "Fixe a extensão: clique no ícone de quebra-cabeça da barra do Chrome e depois no alfinete ao lado do Keyclip." },
+  "welcomeClick": { "message": "Clique no ícone da chave (ou use o atalho de teclado) e uma senha nova é copiada na hora." },
+  "welcomeOptions": { "message": "Ajuste a senha abaixo. Para voltar aqui, clique com o botão direito no ícone e escolha Opções." },
+  "supportTitle": { "message": "Gostou?" },
+  "supportText": { "message": "Esta extensão é gratuita e sem anúncios. Se ela te ajuda, considere apoiar o desenvolvimento." },
+  "donate": { "message": "Me pague um café" },
+  "sourceCodeLabel": { "message": "Código-fonte no GitHub" },
+  "rateLabel": { "message": "Avaliar na Chrome Web Store" },
+  "version": {
+    "message": "Versão $VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  }
+}
