@@ -1,7 +1,7 @@
 // Geração de senhas e configurações compartilhadas entre o popup e a página de opções.
 
 export const LENGTH_MIN = 4;
-export const LENGTH_MAX = 128;
+export const LENGTH_MAX = 64;
 
 export const DEFAULT_SYMBOLS = '!@#$%&*()-_=+[]{};:,.<>?/';
 
@@ -25,7 +25,8 @@ const CHARSETS = {
 };
 
 export async function loadSettings() {
-  return chrome.storage.sync.get(DEFAULTS);
+  const settings = await chrome.storage.sync.get(DEFAULTS);
+  return { ...settings, length: clampLength(settings.length) };
 }
 
 export function saveSettings(settings) {
