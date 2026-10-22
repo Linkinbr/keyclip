@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Keyclip - Password Generator" },
   "shortName": { "message": "Keyclip" },
-  "appDescription": { "message": "Generate a strong random password and copy it to your clipboard with a single click." },
+  "appDescription": { "message": "Generates a strong password following the rules you've set and copies it to your clipboard in a single click." },
   "actionTitle": { "message": "Copy a new password" },
   "copied": { "message": "Password copied!" },
   "copyFailed": { "message": "Couldn't copy the password." },

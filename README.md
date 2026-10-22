@@ -1,10 +1,10 @@
 # Keyclip
 
-Extensão para o Google Chrome que gera uma senha forte e copia para a área de transferência com um clique.
+Extensão para o Google Chrome que gera uma senha forte, seguindo as regras que você definiu, e copia para a área de transferência com um único clique.
 
-Clique no ícone (ou use `Ctrl+Shift+Y`) e aparece só um pequeno aviso "Senha copiada!", que some sozinho.
+Clique no ícone ou use o atalho `Ctrl+Shift+Y` (`⌘+Shift+Y` no Mac), que pode ser alterado. Aparece só um aviso rápido de "Senha copiada!", e a senha já está pronta para colar.
 
-*English: Keyclip is a Chrome extension that generates a strong random password and copies it to your clipboard in one click. Available in English and Brazilian Portuguese.*
+**English:** Chrome extension that generates a strong password following the rules you've set and copies it to your clipboard in a single click. Click the icon or press `Ctrl+Shift+Y` (`⌘+Shift+Y` on Mac), which you can change. All you see is a quick "Password copied!" notice, and the password is ready to paste. Available in English and Brazilian Portuguese.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?logo=buymeacoffee&logoColor=000)](https://buymeacoffee.com/vlima)
 

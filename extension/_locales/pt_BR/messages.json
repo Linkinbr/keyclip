@@ -1,7 +1,7 @@
 {
   "appName": { "message": "Keyclip - Gerador de Senhas" },
   "shortName": { "message": "Keyclip" },
-  "appDescription": { "message": "Gere uma senha forte e aleatória e copie para a área de transferência com um único clique." },
+  "appDescription": { "message": "Gera uma senha forte, seguindo as regras que você definiu, e copia para a área de transferência com um único clique." },
   "actionTitle": { "message": "Copiar nova senha" },
   "copied": { "message": "Senha copiada!" },
   "copyFailed": { "message": "Não foi possível copiar a senha." },
